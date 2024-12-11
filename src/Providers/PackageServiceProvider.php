@@ -30,5 +30,9 @@ class PackageServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . "/RoleServiceProvider.php" => app_path('Providers/RoleServiceProvider.php')
         ],'providers');
+
+        $this->publishes([
+            __DIR__ . "/../HasRole.php" => app_path("Traits/HasRole.php")
+        ]);
     }
 }
