@@ -16,7 +16,8 @@
             "email": "zanko.kh75@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "extra" : {
         "laravel" : {
             "providers" : [
