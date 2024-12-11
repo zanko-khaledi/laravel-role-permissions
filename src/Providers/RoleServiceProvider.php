@@ -1,6 +1,6 @@
 <?php
 
-namespace ZankoKhaledi\LaravelRolePermissions\Providers;
+namespace App\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

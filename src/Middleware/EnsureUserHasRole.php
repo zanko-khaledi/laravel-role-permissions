@@ -1,6 +1,6 @@
 <?php
 
-namespace ZankoKhaledi\LaravelRolePermissions\Middleware;
+namespace App\Http\Middleware;
 
 use App\Models\User;
 use Closure;
