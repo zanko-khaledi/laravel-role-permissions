@@ -19,8 +19,8 @@ class PackageServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . "/../Models/Role.php" => app_path('Models/Role.php'),
-            __DIR__ . "/../Models/Permission.php.php" => app_path('Models/Permission.php'),
-            __DIR__ . "/../Models/RoleUser.php.php" => app_path('Models/RoleUser.php'),
+            __DIR__ . "/../Models/Permission.php" => app_path('Models/Permission.php'),
+            __DIR__ . "/../Models/RoleUser.php" => app_path('Models/RoleUser.php'),
         ],'models');
 
         $this->publishes([
