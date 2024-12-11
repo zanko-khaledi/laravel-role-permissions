@@ -2,7 +2,7 @@
     "name": "zanko-khaledi/laravel-role-permissions",
     "type": "library",
     "require": {
-        "illuminate/support": "12.x-dev"
+        "illuminate/support": "v11.35.0"
     },
     "license": "MIT",
     "autoload": {
