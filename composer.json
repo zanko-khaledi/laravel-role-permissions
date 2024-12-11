@@ -1,0 +1,20 @@
+{
+    "name": "zanko-khaledi/laravel-role-permissions",
+    "type": "library",
+    "require": {
+        "illuminate/support": "12.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ZankoKhaledi\\LaravelRolePermissions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zanko khaledi",
+            "email": "zanko.kh75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
