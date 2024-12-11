@@ -16,5 +16,12 @@
             "email": "zanko.kh75@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "ZankoKhaledi\\LaravelRolePermissions\\Providers\\PackageServiceProvider.php"
+            ]
+        }
+    }
 }
